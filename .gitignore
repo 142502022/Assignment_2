@@ -1,0 +1,14 @@
+# Ignore everything by default
+
+# Keep this .gitignore itself
+!.gitignore
+
+# Allow all .log files (root and subfolders)
+!*.log
+!*/**/*.log
+
+# Allow temp/ directory and its contents
+!temp/
+!temp/**
+iog\n!temp/\n!temp/**
+
